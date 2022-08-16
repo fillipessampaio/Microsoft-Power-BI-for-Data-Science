@@ -9,7 +9,7 @@ This repository contains learnings acquired during the DataScience Academy's Mic
 * Manufacturer: Vehicle manufacturer
 * State: State where the sale took place
 * SalesPrice: Vehicle sales price
-* PriceCost: Cost price of the vehicle for the company
+* CostPrice: Cost price of the vehicle for the company
 * TotalDiscount: Total Discount provided on the sale price
 * DeliveryCost: Cost of delivering the vehicle to the owner
 * LabourCost: Cost of Labor (desk, mechanic, etc...)
@@ -25,9 +25,15 @@ This repository contains learnings acquired during the DataScience Academy's Mic
   3. Labor cost by state
   4. Total sales and sales matrix
 
-
-
 ## 2. Data preparation
+After loading the data into Power BI in excel format, transformations were performed on the data using the Power Query Editor, as follows:
+
+```
+Source = Excel.Workbook(File.Contents("E:\__file_path__.xlsx"), null, true),
+CarSales_Sheet = Source{[Item="CarSales",Kind="Sheet"]}[Data],
+#"Promoted Headers" = Table.PromoteHeaders(CarSales_Sheet, [PromoteAllScalars=true]),
+#"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"DateInvoice", type date}, {"Manufacturer", type text}, {"State", type text}, {"SalesPrice", Currency.Type}, {"CostPrice", Currency.Type}, {"TotalDiscount", Currency.Type}, {"DeliveryCost", Currency.Type}, {"LabourCost", Currency.Type}, {"CustomerName", type text}, {"Model", type text}, {"Color", type text}, {"Year", type text}})
+```
 
 ## 3. Data modeling
 
