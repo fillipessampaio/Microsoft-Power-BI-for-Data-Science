@@ -1,5 +1,4 @@
-# Microsoft-Power-BI-for-Data-Science
-This repository contains learnings acquired during the DataScience Academy's Microsoft Power BI for Data Science course.
+# Dashboard of a Car Sales Company
 
 ## 1. Business Problem Definition
 **Context:** The company XYZ Corporation International, a luxury car dealership based in São Paulo, started its operation in Brazil in 2016, operating in the states of São Paulo, Minas Gerais, Rio de Janeiro, Espírito Santo, Paraná and Bahia.The manager will present the results of the commercial team to the new CEO of the company and needs to create a Dashboard that represents the sales data in the period from 2016 to 2019.
@@ -38,3 +37,5 @@ CarSales_Sheet = Source{[Item="CarSales",Kind="Sheet"]}[Data],
 No data modeling was needed.
 
 ## 4. Data visualization
+Dashboard created on Power BI:
+<p align="center"> <img src="Dashboard_CarSales_page-0001.jpg" width=100% > </p>
