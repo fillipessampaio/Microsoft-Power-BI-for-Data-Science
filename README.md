@@ -26,8 +26,7 @@ This repository contains learnings acquired during the DataScience Academy's Mic
   4. Total sales and sales matrix
 
 ## 2. Data preparation
-After loading the data into Power BI in excel format, transformations were performed on the data using the Power Query Editor, as follows:
-
+After loading the data into Power BI from excel format, transformations were performed using Power Query Editor, as follows:
 ```
 Source = Excel.Workbook(File.Contents("E:\__file_path__.xlsx"), null, true),
 CarSales_Sheet = Source{[Item="CarSales",Kind="Sheet"]}[Data],
@@ -36,5 +35,6 @@ CarSales_Sheet = Source{[Item="CarSales",Kind="Sheet"]}[Data],
 ```
 
 ## 3. Data modeling
+No data modeling was needed.
 
 ## 4. Data visualization
