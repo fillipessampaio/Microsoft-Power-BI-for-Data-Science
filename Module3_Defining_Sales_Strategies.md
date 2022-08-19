@@ -11,7 +11,7 @@
 * Manufacturer: Product manufacturer
 * Store: Store where the sale was made
 * City: City of the store where the sale was made
-* Status: State of the store where the sale was made
+* State: State of the store where the sale was made
 * Seller: Seller's name
 * IdSeller: Seller-ID
 * DateSale: Date of sale
@@ -24,18 +24,10 @@
   3. What is the total sales by segment?
   4. Which segment has the greatest influence on the average sales value?
 
-## 2. Data preparation
-After loading the data into Power BI from excel format, transformations were performed using Power Query Editor, as follows:
-```
-Source = Excel.Workbook(File.Contents("E:\__file_path__.xlsx"), null, true),
-CarSales_Sheet = Source{[Item="CarSales",Kind="Sheet"]}[Data],
-#"Promoted Headers" = Table.PromoteHeaders(CarSales_Sheet, [PromoteAllScalars=true]),
-#"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"DateInvoice", type date}, {"Manufacturer", type text}, {"State", type text}, {"SalesPrice", Currency.Type}, {"CostPrice", Currency.Type}, {"TotalDiscount", Currency.Type}, {"DeliveryCost", Currency.Type}, {"LabourCost", Currency.Type}, {"CustomerName", type text}, {"Model", type text}, {"Color", type text}, {"Year", type text}})
-```
+## 2. Data modeling
+After loading the data into Power BI from excel format, transformations and modeling were carried out, as follows:
+<p align="center"> <img src="data_modeling.png" width=100% > </p>
 
-## 3. Data modeling
-No data modeling was needed.
-
-## 4. Data visualization
+## 3. Data visualization
 Dashboard created on Power BI:
 <p align="center"> <img src="Dashboard_CarSales_page-0001.jpg" width=100% > </p>
