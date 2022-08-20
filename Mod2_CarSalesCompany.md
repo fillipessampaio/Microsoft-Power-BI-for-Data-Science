@@ -34,8 +34,8 @@ CarSales_Sheet = Source{[Item="CarSales",Kind="Sheet"]}[Data],
 ```
 
 ## 3. Data modeling
-No data modeling was needed.
+No data modeling.
 
 ## 4. Data visualization
 Dashboard created on Power BI:
-<p align="center"> <img src="Dashboard_CarSales_page-0001.jpg" width=100% > </p>
+<p align="center"> <img src="img/Dashboard_CarSales_page-0001.jpg" width=100% > </p>
