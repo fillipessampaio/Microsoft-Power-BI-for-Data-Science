@@ -7,3 +7,6 @@ All data here is fictitious and is intended to improve data analytics's skills
 
 ## Case Study 2: [Defining Sales Strategy](https://github.com/fillipessampaio/Microsoft-Power-BI-for-Data-Science/blob/main/Mod3_Defining_Sales_Strategies.md)
 <p align="center"> <img src="img/dashboard_Sales_Strategy_PontoMaximo_page-0001.jpg" width=100% > </p>
+
+## Case Study 3: Profit Margin and KPI
+<p align="center"> <img src="img/Dashboard_Margem_Lucro_page-0001.jpg" width=100% > </p>
