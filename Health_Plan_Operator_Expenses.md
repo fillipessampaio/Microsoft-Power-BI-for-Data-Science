@@ -29,8 +29,8 @@
 
 ## 2. Data modeling
 After loading the data into Power BI from excel format, transformations and modeling were carried out, as follows:
-<p align="center"> <img src="img/data_modeling.png" width=100% > </p>
+<p align="center"> <img src="img/xxxxxxxxxxxxxx.png" width=100% > </p>
 
 ## 3. Data visualization
 Dashboard created on Power BI:
-<p align="center"> <img src="img/dashboard_Sales_Strategy_PontoMaximo_page-0001.jpg" width=100% > </p>
+<p align="center"> <img src="img/xxxxxxxxxxxxxxxx.jpg" width=100% > </p>
