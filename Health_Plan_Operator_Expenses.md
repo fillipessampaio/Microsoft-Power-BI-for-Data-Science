@@ -20,17 +20,10 @@
   2. What is the average age of the operator's users?
   3. What is the average spend per region?
   4. Which age group has the highest expenditure on health insurance by region?
-  5. Do children spend more than adults?
-  6. What is the proportion of children per region?
-  7. Does increasing age influence BMI?
-  8. Who has more expenses, men or women?
-  9. If the user is a woman, is the BMI above or below average?
-  10. If you are a man, over 50 years old and from the Southeast region, is the expenditure higher or lower than the average expenditure in the region?
-
-## 2. Data modeling
-After loading the data into Power BI from excel format, transformations and modeling were carried out, as follows:
-<p align="center"> <img src="img/xxxxxxxxxxxxxx.png" width=100% > </p>
-
-## 3. Data visualization
+  5. What is the proportion of children per region?
+  6. Who has more expenses, men or women?
+  7. If the user is a woman, is the BMI above or below average?
+  
+## 2. Data visualization
 Dashboard created on Power BI:
-<p align="center"> <img src="img/xxxxxxxxxxxxxxxx.jpg" width=100% > </p>
+<p align="center"> <img src="img/Dashboard_Health_Plan_Operator_page-0001.jpg" width=100% > </p>
