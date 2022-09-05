@@ -16,3 +16,9 @@ All data here is fictitious and is intended to improve data analytics's skills
 
 ## Case Study 5: Geolocation and Mapping customer's bank balances
 <p align="center"> <img src="img/Dashboard_Geolocalização_Mapeamento_Clientes - Power BI_page-0001.jpg" width=100% > </p>
+
+## Case Study 6: [Analysis of Expenses of Health Plan Operators](https://github.com/fillipessampaio/Microsoft-Power-BI-for-Data-Science/blob/main/Health_Plan_Operator_Expenses.md)
+<p align="center"> <img src="img/Dashboard_Health_Plan_Operator_page-0001.jpg" width=100% > </p>
+
+
+
