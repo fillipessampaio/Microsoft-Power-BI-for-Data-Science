@@ -1,5 +1,3 @@
-# UNDER CONSTRUCTION
-
 # Health Plan Operator Expenses
 
 ## 1. Business Problem
